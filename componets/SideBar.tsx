@@ -1,12 +1,12 @@
 import NewChat from "./NewChat"
 
-/* function SideBar() {
-  { /* const {data: session } = useSession(); */
+function SideBar() {
+  { /* const {data: session } = useSession(); */ }
   return (
     <div className="p-2 flex flex-col h-screen">
         <div className="flex-1">
             <div>
-                 {/* <NewChat/> */ }
+                <NewChat/> 
 
                 <div>
                     {/*ModelSelection*/}
@@ -24,4 +24,3 @@ import NewChat from "./NewChat"
 }
 
 export default SideBar 
-  /* }  

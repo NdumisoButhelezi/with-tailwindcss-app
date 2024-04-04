@@ -1,9 +1,11 @@
+import { PlusIcon } from "@heroicons/react/24/solid"
 
 
 function NewChat() {
   return (
-    <div>
-        <p>NewChat</p>
+    <div className="border-gray-700 border chatRow">
+      <PlusIcon className="h-4 w-4" />
+      <p>NewChat</p>
     </div>
   )
 }
