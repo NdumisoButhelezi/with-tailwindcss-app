@@ -9,7 +9,7 @@ function Login() {
         src="https://links.papareact.com/2i6"
         width={300}
         height={300}
-        alt="logo"
+        alt="logo" 
     />
      <button onClick={() => signIn('google')} className="text-white font-bold text-3xl animate-pulse">
         Sign In to use PLanet 09 Python GPT

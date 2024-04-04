@@ -1,8 +1,9 @@
 import { SessionProvider } from "../../componets/SessionProvider";
-import SideBar from "../../componets/SideBar";
+/* import SideBar from "../../componets/SideBar"; */
 import {getServerSession} from "next-auth";
 import { authOptions } from "../../pages/api/auth/[...nextauth]";
 import Login from "../../componets/Login";
+import "./globals.css";
 
 
 export default async function RootLayout({
@@ -22,12 +23,11 @@ export default async function RootLayout({
             ):(
           <div className="flex">
             <div className="bg-gray-600 max-w-xs h-screen overflow-y-auto md:min-w-[20rem]">
-              <SideBar />
-            </div>
-
+              {/*<SideBar /> */} 
+            </div> 
             {/* ClientProvider - Notification */}
 
-            <div className="bg-#343541 flex-1">{children}</div>
+            <div className="bg-[#343541] flex-1">{children}</div>
           </div>
             )}
           
