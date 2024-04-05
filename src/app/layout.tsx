@@ -13,15 +13,17 @@ export default async function RootLayout({
   }: {
     children: React.ReactNode;
   }) {
-    const session = await getServerSession(authOptions)
-    return(
+    const session = await getServerSession(authOptions);
+
+    console.log(session);
+    return( 
       <html>
         <head />
         <body>
           <SessionProvider session={session}>
             {!session ? (
               <Login />
-            ):(
+            ):( 
               <div className="flex">
                 <div className="bg-[#202123] max-w-xs h-screen overflow-y-auto md:min-w-[20rem]">
                   <SideBar /> 
