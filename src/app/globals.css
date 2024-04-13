@@ -8,10 +8,11 @@
   }
   
   .chatRow {
-    @apply rounded-lg px-5 py-3 text-sm flex items-center justify-center space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out;
+    @apply rounded-lg px-5 py-3 text-sm flex items-center justify-center space-x-2 hover:bg-gray-700/70 cursor-pointer text-green-600 transition-all duration-200 ease-out;
   }
   
   .newChatText {
-    @apply border border-gray-300 rounded-md px-2 py-1;
+    @apply border border-green-600 rounded-md px-2 py-1;
   }
 }
+
